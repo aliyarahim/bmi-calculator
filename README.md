@@ -32,7 +32,7 @@ You can use this BMI Calculator in your browser without any installation. Just o
 ### JavaScript
 - Handles user input validation.
 - Calculates BMI using the formula:  
-  \[
-  \text{BMI} = \frac{\text{weight (kg)}}{(\text{height (m)})^2}
-  \]
+    const heightInMeters = height / 100;
+    const bmi = (weight / (heightInMeters ** 2)).toFixed(2);
+
 - Displays results dynamically with user-friendly messages.
